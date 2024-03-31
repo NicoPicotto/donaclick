@@ -1,11 +1,11 @@
 import { extendTheme } from "@chakra-ui/react";
 
 const colors = {
-  negro: "#f1f6f9",
-  blanco: "#f1f6f9",
+  negro: "#0e1111",
+  blanco: "#F5F7F8",
   azul: "#2E3192",
   naranja: "#FF7E00",
-  fondo: "#f1f6f9",
+  fondo: "#F5F7F8",
 };
 
 const fonts = {
@@ -22,6 +22,7 @@ const Button = {
     solid: {
       bg: colors.naranja,
       color: colors.blanco,
+      fontWeight: "bold",
       _hover: {
         bg: "#d46900",
       },
@@ -46,7 +47,7 @@ const Button = {
       color: colors.blanco,
       _hover: {
         textDecoration: "underline",
-        color: colors.naranja,
+        textUnderlineOffset: "2px",
       },
     },
   },
@@ -56,7 +57,7 @@ const styles = {
   global: {
     "html, body": {
       backgroundColor: colors.fondo,
-      color: colors.negro, // Asegúrate de definir `colors.natural` o corrige a `colors.negro` si fue un error tipográfico
+      color: colors.negro,
       fontSize: "16px",
     },
   },

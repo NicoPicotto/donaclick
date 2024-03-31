@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Chomba Hombre Columbia Creek",
+    "descripcion": "Descubre la máxima comodidad con la Chomba Hombre Columbia Sweat Threat. Confeccionada con un 64% de algodón y un 36% de poliéster, esta polo ofrece un estilo clásico y a la vez vanguardista, gracias a la tecnología Omni-Freeze y Omni-Wick que garantizan un rendimiento óptimo en climas desafiantes.",
+    "categoria": "indumentaria",
+    "precio": 50311,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/chomba-creek-347260d5f8d765c21417060547577364-1024-1024.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Campera de Mujer Nexxt Arrow",
+    "descripcion": "Versatilidad y protección de la Campera Nexxt Softshell para mujer. Con una impermeabilidad de 8000mm y una respirabilidad de 800g/m2, esta campera te mantiene seca y cómoda en todas tus aventuras. Sus detalles reflectivos y bolsillos con cierre añaden funcionalidad y estilo. Además, cuenta con envivados en contra tono, capucha y puños ajustables para un ajuste perfecto. ¡Prepárate para enfrentar cualquier clima con estilo!.",
+    "categoria": "indumentaria",
+    "precio": 131918,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/nexxt-campera-de-mujer-arrow-black-21-bd5f5106f18a21418c16945388531741-1024-1024.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Chaleco Mujer Montagne Clara",
+    "descripcion": "Por las características de sus materiales: Ciree + relleno ecodown (fibra hueca siliconada), esta prenda resulta altamente térmica y muy liviana.",
+    "categoria": "indumentaria",
+    "precio": 137268,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/montagne-chaleco-de-mujer-dua-vison-71-f2dfe450f328bb734a16859763707066-1024-1024.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Sarten de Hierro Esmaltado Vonne",
+    "descripcion": "Con la sartén de hierro esmaltado de 25 cm, cocinar nunca fue tan fácil. Hecha de hierro fundido de alta calidad y esmaltada en un hermoso tono degradado, esta sartén es una adición imprescindible a tu colección de utensilios de cocina. Su espesor de 4,5 mm permite una distribución uniforme del calor para cocinar de forma eficiente. Además, su pico y mango prácticos te permiten verter y transportar tus comidas sin esfuerzo. ¡No esperes más para experimentar una cocina excepcional!",
+    "categoria": "hogar",
+    "precio": 38305,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/vonne-sarten-de-hierro-esmaltado-azul-25-cm1-bfb6e7577e10847ab016866685345138-1024-1024.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Sierra Circular 2000 W con Guia Laser Barovo",
+    "descripcion": "Sierra circular 9 1/4 2000 W con guía láser.",
+    "categoria": "hogar",
+    "precio": 170854,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/barovo-sierra-circular-9-14-con-guia-laser-141-22e0108db2c163ae6a16868363915911-1024-1024.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Gel Deportivo Energético con Cafeína Across",
+    "descripcion": "Gel Deportivo Across Sport Nutrition(24 sachet por caja).",
+    "categoria": "suplementos",
+    "precio": 20700,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/across-gel-deportivo-con-cafeina-11-ce9b1fd0c775cc724516760303488490-1024-1024.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Suplemento Vitamina B12 Be Positive",
+    "descripcion": "Suplemento Vitamina B12 - Be positive - aporte para dietas veganas y vegetarianas. Presentación: 100 comprimidos.",
+    "categoria": "suplementos",
+    "precio": 18300,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/across-suplemento-vitaminico-b-12-21-d8ba6d28a7789346cb16837428220924-1024-1024.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Mochila Nexxt Raval 35 Lts.",
+    "descripcion": "Mochila de trekking y uso urbano con capacidad para 35L.",
+    "categoria": "mochilas",
+    "precio": 92800,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/portada-671cf89f28a16d733f17083731756313-1024-1024.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Mochila Montagne Astrum 35 lts",
+    "descripcion": "Poliéster 100% 600D x 600D con recubrimiento de PU en su cara externa + Poliéster 100% 600D x 600D con recubrimiento de PU.",
+    "categoria": "mochilas",
+    "precio": 199095,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/montagne-mochila-astrum-35lts-negro-11-2eb26c62866fdfbda516866626554964-1024-1024.webp"
+  },
+  {
+    "id": 10,
+    "nombre": "Mochila Chaleco Montagne Rockwell 5 Lts",
+    "descripcion": "El chaleco mochila Rockwell ofrece una distribución equitativa del peso, reduciendo la tensión en espalda y hombros. Sus bolsillos estratégicos brindan acceso rápido a pertenencias, mientras que su diseño cercano al cuerpo permite mayor libertad de movimiento. Versátil para uso diario y actividades al aire libre, proporciona almacenamiento organizado con estilo moderno.",
+    "categoria": "mochilas",
+    "precio": 57499,
+    "imagen": "https://acdn.mitiendanube.com/stores/982/617/products/portada-2a1eca4ead8d20363416996435190112-1024-1024.webp"
+  }
+]

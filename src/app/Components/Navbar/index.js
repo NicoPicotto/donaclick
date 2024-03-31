@@ -1,9 +1,9 @@
 "use client";
 import {
   HStack,
-  Link,
   Stack,
   Image,
+  Link,
   Button,
   useDisclosure,
   Drawer,
@@ -14,13 +14,14 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 import { RiMenu3Line } from "react-icons/ri";
+import { Link as NextLink } from "next/link";
 import "./styles.css";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const MenuButtons = [
-    { label: "Sobre DonáClick", link: "/contacto", variant: "link" },
+    { label: "Sobre DonáClick", link: "/nosotros", variant: "link" },
     { label: "Conocé el programa", link: "/contacto", variant: "link" },
     { label: "ONG's", link: "/contacto", variant: "link" },
     { label: "Ingresá", link: "/contacto", variant: "solid" },
@@ -29,12 +30,12 @@ const Navbar = () => {
   return (
     <Stack paddingInline='2em' paddingBlock='1em' align='center' bgColor='azul'>
       <HStack w='100%' maxW='1280px' align='center' justify='space-between'>
-        <Link to='/'>
+        <Link as={NextLink} href='/'>
           <Image src='/Navbar/logo.png' alt='Sveatech Logo' w='185px' />
         </Link>
         <HStack gap={10} display={{ base: "none", md: "flex" }}>
           {MenuButtons.map((item) => (
-            <Link key={item.label} to={item.link}>
+            <Link as={NextLink} key={item.label} href={item.link}>
               <Button variant={item.variant} color='blanco'>
                 {item.label}
               </Button>
