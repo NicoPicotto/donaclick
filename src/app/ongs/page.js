@@ -25,6 +25,7 @@ export default function Ongs() {
                 transition='0.1s ease-in'
                 justify='center'
                 align='center'
+                bgColor="white"
               >
                 <Image
                   as={NextImage}
@@ -32,6 +33,7 @@ export default function Ongs() {
                   h={200}
                   alt={logo.label}
                   src={logo.path}
+                  objetFit='contain'
                 />
               </Stack>
             </Link>

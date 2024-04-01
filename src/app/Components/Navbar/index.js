@@ -12,10 +12,12 @@ import {
   DrawerContent,
   DrawerCloseButton,
   IconButton,
+  Divider,
 } from "@chakra-ui/react";
 import { RiMenu3Line } from "react-icons/ri";
 import { Link as NextLink } from "next/link";
 import { usePathname } from "next/navigation";
+import { FaCartShopping } from "react-icons/fa6";
 import "./styles.css";
 
 const Navbar = () => {
@@ -24,7 +26,7 @@ const Navbar = () => {
 
   const MenuButtons = [
     { label: "Sobre DonáClick", link: "/nosotros", variant: "link" },
-    { label: "Conocé el programa", link: "/contacto", variant: "link" },
+    // { label: "Conocé el programa", link: "/contacto", variant: "link" },
     { label: "ONG's", link: "/ongs", variant: "link" },
     { label: "Ingresá", link: "/contacto", variant: "solid" },
   ];
@@ -48,13 +50,25 @@ const Navbar = () => {
                 variant={item.variant}
                 color='blanco'
                 textUnderlineOffset={2}
-                textDecor={(pathName === item.link && item.variant === "link") && "underline"}
+                textDecor={
+                  pathName === item.link &&
+                  item.variant === "link" &&
+                  "underline"
+                }
               >
                 {item.label}
               </Button>
             </Link>
           ))}
+          <Divider border='1px solid white' orientation='vertical' h={8} />
+          <Link as={NextLink} href='/cart'>
+            <IconButton
+              icon={<FaCartShopping color='white' />}
+              variant='unstyled'
+            />
+          </Link>
         </HStack>
+
         <IconButton
           display={{ base: "block", md: "none" }}
           icon={<RiMenu3Line />}
