@@ -15,20 +15,28 @@ import {
 } from "@chakra-ui/react";
 import { RiMenu3Line } from "react-icons/ri";
 import { Link as NextLink } from "next/link";
+import { usePathname } from "next/navigation";
 import "./styles.css";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const pathName = usePathname();
 
   const MenuButtons = [
     { label: "Sobre DonáClick", link: "/nosotros", variant: "link" },
     { label: "Conocé el programa", link: "/contacto", variant: "link" },
-    { label: "ONG's", link: "/contacto", variant: "link" },
+    { label: "ONG's", link: "/ongs", variant: "link" },
     { label: "Ingresá", link: "/contacto", variant: "solid" },
   ];
 
   return (
-    <Stack paddingInline='2em' paddingBlock='1em' align='center' bgColor='azul'>
+    <Stack
+      as='nav'
+      paddingInline='2em'
+      paddingBlock='1em'
+      align='center'
+      bgColor='azul'
+    >
       <HStack w='100%' maxW='1280px' align='center' justify='space-between'>
         <Link as={NextLink} href='/'>
           <Image src='/Navbar/logo.png' alt='Sveatech Logo' w='185px' />
@@ -36,7 +44,12 @@ const Navbar = () => {
         <HStack gap={10} display={{ base: "none", md: "flex" }}>
           {MenuButtons.map((item) => (
             <Link as={NextLink} key={item.label} href={item.link}>
-              <Button variant={item.variant} color='blanco'>
+              <Button
+                variant={item.variant}
+                color='blanco'
+                textUnderlineOffset={2}
+                textDecor={(pathName === item.link && item.variant === "link") && "underline"}
+              >
                 {item.label}
               </Button>
             </Link>

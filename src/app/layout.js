@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "DonáClick",
   description:
-    "Donáclick es un programa que te permite sumarte a una ONG con cada una de tus compras sin ningun costos extra.",
+    "Donáclick es un programa que te permite sumarte a una ONG con cada una de tus compras sin ningun costo extra.",
 };
 
 export default function RootLayout({ children }) {
